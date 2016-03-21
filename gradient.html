@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>社区-帖子页</title>
+	<head>
+	<style type="text/css">
+	.each{
+		width:50px;
+		height:50px;
+		margin-right:40px;
+		float:left;
+	}
+	#wrap_colors{
+		clear:both;
+		margin:20px;
+	}
+
+	</style>
+	</head>
+	<body>
+		<input type="color" id="colorPicker" style="display:none;" />
+		<div class="">设置渐变断点</div>
+		<input type="range" min="1" max="100" id="points" value="100"/>
+		<input type="button" value="+" />
+		
+		<div>设置透明度: <span id="txt"></span></div>
+		<div id="wrap_colors">
+			<!-- <div class="each"></div> -->
+		</div>
+
+		<!-- <input type=""> -->
+	</body>
+	<script src="gradient.js"></script>
+</html>
